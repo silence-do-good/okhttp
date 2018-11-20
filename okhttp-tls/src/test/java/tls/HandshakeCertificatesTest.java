@@ -34,15 +34,12 @@ import javax.net.SocketFactory;
 import javax.net.ssl.SSLSocket;
 import okhttp3.Handshake;
 import okhttp3.internal.Util;
-import tls.HandshakeCertificates;
-import tls.HeldCertificate;
 import okio.ByteString;
 import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import org.junit.Before;
+import org.junit.Test;
 
 public final class HandshakeCertificatesTest {
   private ExecutorService executorService;
@@ -140,7 +137,7 @@ public final class HandshakeCertificatesTest {
       names.add(name.substring(0, name.indexOf(" ")));
     }
     // It's safe to assume all platforms will have a major Internet certificate issuer.
-    assertTrue(names.toString(), names.contains("CN=Entrust"));
+    assertTrue(names.toString(), names.contains("CN=Equifax"));
   }
 
   private InetSocketAddress startTlsServer() throws IOException {

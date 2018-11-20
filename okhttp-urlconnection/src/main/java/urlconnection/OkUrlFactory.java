@@ -21,7 +21,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLStreamHandler;
 import java.net.URLStreamHandlerFactory;
-
 import okhttp3.OkHttpClient;
 import urlconnection.internal.URLFilter;
 import urlconnection.internal.huc.OkHttpURLConnection;
@@ -65,7 +64,7 @@ public final class OkUrlFactory implements URLStreamHandlerFactory, Cloneable {
     return open(url, client.proxy());
   }
 
-  HttpURLConnection open(URL url, Proxy proxy) {
+  public HttpURLConnection open(URL url, Proxy proxy) {
     String protocol = url.getProtocol();
     OkHttpClient copy = client.newBuilder()
         .proxy(proxy)

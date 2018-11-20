@@ -20,7 +20,7 @@
 
   <modules>
     <module>okhttp</module>
-    <!--<module>okhttp-tests</module>-->
+    <module>okhttp-tests</module>
 
     <module>okhttp-android-support</module>
 
@@ -227,7 +227,7 @@
         </configuration>
       </plugin>
 
-      <plugin>
+<!--      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
         <version>2.17</version>
@@ -252,7 +252,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>animal-sniffer-maven-plugin</artifactId>

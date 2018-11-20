@@ -35,7 +35,7 @@
     <dependency>
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>animal-sniffer-annotations</artifactId>
-      <version>1.17-SNAPSHOT</version>
+      <version>1.17</version>
       <!--<scope>provided</scope>-->
     </dependency>
   </dependencies>
