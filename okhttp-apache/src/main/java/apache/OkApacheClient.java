@@ -1,5 +1,5 @@
 // Copyright 2013 Square, Inc.
-package okhttp3.apache;
+package apache;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

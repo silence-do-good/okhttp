@@ -13,7 +13,7 @@
  * the License.
  */
 
-package okhttp3.dnsoverhttps;
+package dnsoverhttps;
 
 import java.io.EOFException;
 import java.net.InetAddress;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okhttp3.logging;
+package logging;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -32,7 +32,7 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
-import okhttp3.logging.HttpLoggingInterceptor.Level;
+import logging.HttpLoggingInterceptor.Level;
 import mockwebserver.MockResponse;
 import mockwebserver.MockWebServer;
 import tls.HandshakeCertificates;

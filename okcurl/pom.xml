@@ -59,7 +59,7 @@
           </descriptorRefs>
           <archive>
             <manifest>
-              <mainClass>okhttp3.curl.Main</mainClass>
+              <mainClass>okcurl.Main</mainClass>
             </manifest>
           </archive>
         </configuration>

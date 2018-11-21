@@ -1,0 +1,3 @@
+module logginginterceptor {
+    requires okhttp;
+}

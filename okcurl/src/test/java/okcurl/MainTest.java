@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okhttp3.curl;
+package okcurl;
 
 import java.io.IOException;
 import okhttp3.Request;
@@ -21,7 +21,7 @@ import okhttp3.RequestBody;
 import okio.Buffer;
 import org.junit.Test;
 
-import static okhttp3.curl.Main.fromArgs;
+import static okcurl.Main.fromArgs;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 

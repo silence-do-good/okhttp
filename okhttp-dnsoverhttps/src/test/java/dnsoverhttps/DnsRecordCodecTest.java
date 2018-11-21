@@ -13,17 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okhttp3.dnsoverhttps;
+package dnsoverhttps;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Collections;
 import java.util.List;
+
+
 import okio.ByteString;
 import org.junit.Test;
 
-import static okhttp3.dnsoverhttps.DnsRecordCodec.TYPE_A;
-import static okhttp3.dnsoverhttps.DnsRecordCodec.TYPE_AAAA;
+import static dnsoverhttps.DnsRecordCodec.TYPE_A;
+import static dnsoverhttps.DnsRecordCodec.TYPE_AAAA;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 

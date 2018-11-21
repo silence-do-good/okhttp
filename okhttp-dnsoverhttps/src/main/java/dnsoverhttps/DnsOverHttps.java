@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package okhttp3.dnsoverhttps;
+package dnsoverhttps;
 
 import java.io.IOException;
 import java.net.InetAddress;

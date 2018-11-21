@@ -1,4 +1,4 @@
-package okhttp3.apache;
+package apache;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
